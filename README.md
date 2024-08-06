@@ -1,79 +1,36 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# FoodApp
 
-# Getting Started
+Welcome to FoodApp, your one-stop solution for ordering delicious meals online. Whether you're craving a quick snack or a hearty meal, FoodApp brings a variety of food options right to your fingertips.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Browse Menus**: Explore menus from your favorite local restaurants.
+- **Order Online**: Place orders seamlessly within the app.
+- **Real-Time Tracking**: Track your order from the kitchen to your doorstep.
+- **User Profiles**: Manage your addresses, favorite dishes, and payment options.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Development Status and Roadmap
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Current Status
+The app is fully functional with features for browsing menus, placing orders, and tracking deliveries.
 
-```bash
-# using npm
-npm start
+### Roadmap
+- **UI Refactoring**: Enhance responsiveness and streamline user interactions for better usability.
+- **Code Commenting and Documentation**: Improve the codebase with detailed comments and comprehensive documentation to facilitate maintenance and scaling.
+- **Backend Integration**: Integrate with a backend server for dynamic content management and efficient order processing.
+- **Additional Features**:
+  - User authentication for personalized experiences.
+  - Real-time order tracking updates.
+  - Expanded payment options including digital wallets and cryptocurrency.
 
-# OR using Yarn
-yarn start
-```
+## Getting Started
 
-## Step 2: Start your Application
+To get a local copy up and running follow these simple steps:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/dmoonwalker/foodapp.git
+2. Run
+   npm install
+3. start
+   npm start
